@@ -1,18 +1,18 @@
 {
     "social_media": {
-      "LinkedIn": "www.linkedin.com/in/abdulfayiz-shokirov-500185238",
-      "GitHub": "https://github.com/abdulfayiz",
-      "Twitter": "https://twitter.com/abdulfayiz"
+      "LinkedIn": "https://www.linkedin.com/in/abdulfayiz-shokirov-500185238",
+      "GitHub": "https://github.com/asaprockky",
+      "Instagram": "https://www.instagram.com/upworkd/"
     },
     "name": "Abdulfayiz Shokirov",
     "tagline": "Django Developer | Python Enthusiast | Tech Innovator",
     "summary": "I am a software engineer specializing in Django and Python development. Currently pursuing my Bachelor's in Software Engineering at Cambridge. Based in Uzbekistan, I create scalable web applications and automation tools.",
     "work_experience": [
-      "Football Commentator – Covering matches & analysis",
+      "Operator – US truck company Operator",
       "Python Developer – Telegram automation, Flask APIs",
-      "Game Developer – Building Unity-based football games"
+      "Game Developer – Building Unity-based games"
     ],
-    "education": "📍 Cambridge University – Bachelor's in Software Engineering",
+    "education": "📍 Millat Umidi University – Bachelor's in Software Engineering",
     "location": "🌍 Uzbekistan"
   }
   
