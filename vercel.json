@@ -8,7 +8,7 @@
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
+        "src": "playground/static/(.*)",
         "dest": "/static/$1"
       },
       {
