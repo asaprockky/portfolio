@@ -21,3 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('playground/', include('playground.urls'))
 ]
+from django.conf.urls.static import static
+from django.conf import settings
+
+if settings.DEBUG:  # ✅ Serve static files in development
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
