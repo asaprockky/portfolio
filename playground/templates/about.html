@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Abdulfayiz Shokirov</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'about.css' %}">
+</head>
+<body>
+    <div class="container">
+        <aside class="social-media">
+            {% for platform, url in about_info.social_media.items %}
+                <a href="{{ url }}" target="_blank">{{ platform }}</a>
+            {% endfor %}
+        </aside>
+        <section class="about">
+            <h1>Abdulfayiz Shokirov</h1>
+            <p class="tagline">Django Developer | Python Enthusiast | Tech Innovator</p>
+            <p class="summary">
+                I am a software engineer specializing in Django and Python development.  
+                Currently pursuing my Bachelor's in Software Engineering at Cambridge.  
+                Based in Uzbekistan, I create scalable web applications and automation tools.  
+            </p>
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Football Commentator</strong> – Covering matches & analysis</li>
+                <li><strong>Python Developer</strong> – Telegram automation, Flask APIs</li>
+                <li><strong>Game Developer</strong> – Building Unity-based football games</li>
+            </ul>
+            <h2>Education</h2>
+            <p>📍 <strong>Cambridge University</strong> – Bachelor's in Software Engineering</p>
+            <h2>Location</h2>
+            <p>🌍 Uzbekistan</p>
+            <button onclick="goBack()" class="back-btn">⬅ Back</button>
+        </section>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

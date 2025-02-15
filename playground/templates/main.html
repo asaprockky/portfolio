@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1 class="brand">Abdulfayiz Shokirov</h1>
+            <h2 class="title">Python <span>Developer.</span></h2>
+            <p class="description">
+                I like to craft solid and scalable frontend products with great user experiences.
+            </p>
+            <div class="skills">
+                <ul>
+                    {% for tech in info.navbar %}
+                        <li><a href="{{tech.url}}">{{tech.name}} </a></li>
+                    {% endfor %}    
+                </ul>
+            </div>
+        </div>
+        <div class="right-section">
+            {% load static %}
+            <img src="{% static 'images/profile.jpg' %}" alt="Profile Picture" class="profile-img">
+        </div>
+    </div>
+</body>
+</html>

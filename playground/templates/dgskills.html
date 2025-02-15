@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Skills - Abdulfayiz Shokirov</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'dgskills.css' %}">
+
+</head>
+<body>
+    <div class="skills-container">
+        <header class="page-header">
+            <h1>Technical Expertise</h1>
+            <p>Technologies I work with and master</p>
+        </header>
+
+        <div class="skills-grid">
+            <!-- Django Example Card -->
+             {%for carts in tech_info.technologies%}
+            <div class="skill-card">
+                <div class="skill-header">
+                    <img src="{{ carts.img_url }}" alt="Django" class="skill-icon">
+                    <h2 class="skill-title">{{carts.name}}</h2>
+                </div>
+                <p class="skill-description">
+                    {{carts.description}}
+                </p>
+                <div class="skill-section">
+                    <h3>Key Features</h3>
+                    <ul class="feature-list">
+                        {% for i in carts.features%}
+                        <li>{{i}}</li>
+                        {% endfor%}
+                    </ul>
+                </div>
+                <div class="skill-section">
+                    <h3>Common Use Cases</h3>
+                    <ul class="use-case-list">
+                        <ul class="feature-list">
+                            {% for i in carts.use_cases%}
+                            <li>{{i}}</li>
+                            {% endfor%}
+                        </ul>
+                    </ul>
+                </div>
+                <a href="https://www.djangoproject.com/" class="skill-url" target="_blank">Official Docs</a>
+            </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+    <button class="back-button" onclick="history.back()">Back</button>
+</body>
+</html>

@@ -1,0 +1,149 @@
+/* CSS Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    color: #2d3436;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: #2d3436;
+    margin-bottom: 0.5rem;
+}
+
+.page-header p {
+    color: #636e72;
+    font-size: 1.1rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.skill-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.skill-title {
+    font-size: 1.4rem;
+    color: #2d3436;
+}
+
+.skill-description {
+    color: #636e72;
+    margin-bottom: 1rem;
+}
+
+.skill-section h3 {
+    color: #0984e3;
+    font-size: 1.1rem;
+    margin: 1.5rem 0 1rem;
+}
+
+.feature-list, .use-case-list {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.feature-list li::before {
+    content: "▹";
+    color: #0984e3;
+    margin-right: 0.5rem;
+}
+
+.use-case-list li {
+    padding: 0.3rem 0;
+    color: #636e72;
+}
+
+.skill-url {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background: #0984e3;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.skill-url:hover {
+    background: #0873c4;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color: #0984e3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #076bb3;
+  }
+  
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .skill-card {
+        padding: 1.5rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+}

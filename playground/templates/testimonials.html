@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdulfayiz Shokirov - Testimonials</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'testimonials.css' %}">
+</head>
+<body>
+  <div class="container">
+    <div class="testimonials-header">
+      <h1>Client Testimonials</h1>
+      <p>What people say about my work</p>
+    </div>
+
+    <div class="testimonials-grid">
+    {% for review in data.testimonials %}
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <div class="client-info">
+          <img src="{{review.clientImage}}" alt="Client" class="client-image" />
+          <div class="client-details">
+            <h3>{{ review.clientName }}</h3>
+            <p>{{review.clientDesignation}}</p>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          {{review.testimonialText}}
+        </p>
+        <div class="rating">{{review.rating}}</div>
+      </div>
+    {% endfor %}
+      <!-- Add more testimonials as needed -->
+    </div>
+    
+    <div class="works-gallery">
+    {% for client in data.works %}
+      <div class="work-item">
+        <img src="{{ client.image }}" alt="Project 1" loading="lazy" />
+        <div class="work-details">
+          <h3>{{client.title}}</h3>
+          <p>{{client.description}}</p>
+          <a href="{{client.link}}">View Details</a>
+        </div>
+      </div>
+
+    {% endfor %}
+      <!-- Add more work items as needed -->
+    </div>
+  </div>
+  <button class="back-button" onclick="history.back()">Back</button>
+
+</body>
+</html>
