@@ -1,0 +1,95 @@
+{
+    "technologies": [
+      {
+        "name": "Django Framework",
+        "description": "A powerful, high-level web framework for building RESTful APIs using Django and Django REST Framework (DRF).",
+        "features": [
+          "Built-in authentication and permissions",
+          "Browsable API for easy testing",
+          "Serialization and deserialization of data",
+          "Class-based and function-based views",
+          "Rate limiting and throttling"
+        ],
+        "use_cases": [
+          "Developing scalable web applications",
+          "Building RESTful APIs for mobile and frontend apps",
+          "Handling authentication with JWT or OAuth"
+        ],
+        "img_url": 
+          "https://c0.klipartz.com/pngpicture/10/113/gratis-png-django-desarrollo-web-framework-web-python-software-framework-django-thumbnail.png"
+        ,
+        "url": [
+          "django_main_page_url"
+        ]
+        
+      },
+      {
+        "name": "Automation",
+        "description": "The process of using scripts and tools to automate repetitive tasks, improving efficiency and accuracy.",
+        "features": [
+          "Task scheduling with cron jobs",
+          "Automating file handling and data processing",
+          "Web browser automation using Selenium or Playwright",
+          "Email and notification automation"
+        ],
+        "use_cases": [
+          "Automating report generation",
+          "Scheduling social media posts",
+          "Data entry and processing automation"
+        ],
+        "img_url":
+        "https://e7.pngegg.com/pngimages/584/459/png-clipart-computer-icons-iot-solutions-world-congress-process-automation-blue-business.png"
+      },
+      {
+        "name": "Web Scraping",
+        "description": "The process of extracting data from websites using automation tools like BeautifulSoup, Scrapy, and Selenium.",
+        "features": [
+          "Parsing HTML and XML data",
+          "Handling dynamic content with Selenium",
+          "Extracting and storing structured data",
+          "Bypassing bot detection using headers and proxies"
+        ],
+        "use_cases": [
+          "Extracting product prices from e-commerce websites",
+          "Collecting news articles and blog content",
+          "Scraping job listings and market research data"
+        ],
+        "img_url" :
+          "https://runestone.academy/ns/books/published/py4e-int/_images/web_crawler.png"
+
+      },
+      {
+        "name": "Flask API",
+        "description": "A lightweight web framework for building APIs with Flask, using Flask-RESTful or Flask-RESTx.",
+        "features": [
+          "Simple and lightweight framework",
+          "Supports RESTful architecture",
+          "Integration with SQLAlchemy for database handling",
+          "Middleware and request handling"
+        ],
+        "use_cases": [
+          "Creating microservices",
+          "Developing lightweight APIs for web and mobile applications",
+          "Building prototypes quickly"
+        ],
+        "img_url" : "https://www.pngfind.com/pngs/m/104-1044449_python-logo-clipart-drawing-flask-python-hd-png.png"
+      },
+      {
+        "name": "Tkinter",
+        "description": "A standard Python library for creating GUI applications, providing a simple and easy-to-use interface.",
+        "features": [
+          "Built-in widgets like buttons, labels, text fields, and menus",
+          "Event-driven programming model",
+          "Customizable themes and styles",
+          "Cross-platform compatibility"
+        ],
+        "use_cases": [
+          "Building desktop applications",
+          "Creating simple admin panels and tools",
+          "Developing GUI-based automation scripts"
+        ],
+        "img_url" : "https://w7.pngwing.com/pngs/32/472/png-transparent-pyqt-python-widget-toolkit-computer-icons-flask-angle-furniture-text-thumbnail.png"
+      }
+    ]
+  }
+  
