@@ -1,0 +1,188 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #eef2f3;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
+    background: linear-gradient(to right, #3f2aff 50%, #c1f162 50%);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section */
+.left-section {
+    width: 50%;
+    min-width: 300px;
+    color: white;
+    padding: 30px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c1f162;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.title span {
+    color: #c1f162;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Right Section */
+.right-section {
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+/* Skills Section */
+.skills {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border-left: 4px solid #007BFF;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.skills li:hover {
+    background: #007BFF;
+    color: white;
+}
+
+.skills a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+.skills li:hover a {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .left-section, 
+    .right-section {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .skills {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .skills li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .profile-img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .skills {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .skills li {
+        font-size: 12px;
+    }
+}

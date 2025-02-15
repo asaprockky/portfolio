@@ -1,0 +1,30 @@
+{
+    "navbar": [
+      {
+        "name": "About",
+        "url": "about.html",
+        "description": "Learn more about me, my background, and my journey."
+      },
+      {
+        "name": "Digital Skills",
+        "url": "dgskills.html",
+        "description": "A list of technical and digital skills I have mastered."
+      },
+      {
+        "name": "Services",
+        "url": "services.html",
+        "description": "Discover the services I offer, including web development, automation, and more."
+      },
+      {
+        "name": "Testimonials",
+        "url": "testimonials.html",
+        "description": "See what others say about my work and contributions."
+      },
+      {
+        "name": "FAQs",
+        "url": "faqs.html",
+        "description": "Frequently asked questions about my work, skills, and availability."
+      }
+    ]
+  }
+  

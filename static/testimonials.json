@@ -1,0 +1,53 @@
+{
+    "testimonials": [
+      {
+        "clientImage": "https://png.pngitem.com/pimgs/s/463-4634060_crm-my-client-client-icon-hd-png-download.png",
+        "clientName": "Vaselina Kuksa",
+        "clientDesignation": "CEO at Tech Corp",
+        "testimonialText": "Such efficient and professional services. Thank to Abdulfayiz. He was very helpful. He met deadlines, Recommended",
+        "rating": "★★★★★"
+      },
+      {
+        "clientImage": "https://via.placeholder.com/60",
+        "clientName": "Abdul Rehman",
+        "clientDesignation": "Product Manager",
+        "testimonialText": "Great Job. Highly recommended!",
+        "rating": "★★★★★"
+      },
+            {
+        "clientImage": "https://via.placeholder.com/60",
+        "clientName": "Ameur Djehiche",
+        "clientDesignation": "Private Client",
+        "testimonialText": "Amazing work, and easy to talk too",
+        "rating": "★★★★★"
+      },
+      {
+        "clientImage": "https://via.placeholder.com/60",
+        "clientName": "Sarah Johnson",
+        "clientDesignation": "HR Manager",
+        "testimonialText": "We prepared and follows instructions diligently. Very easy to work with.",
+        "rating": "★★★★★"
+      }
+    ],
+    "works": [
+      {
+        "image": "https://images.moondeveloper.com/images/2024/09/30/66fb0bea6cf54_large.png",
+        "title": "Telegram to mt5 bot",
+        "description": "The Telegram to MT5 Bot automatically executes trading signals from Telegram channels into MetaTrader 5.",
+        "link": "https://www.youtube.com/watch?v=L0szVP-PAqk"
+      },
+      {
+        "image": "https://www.hudalighting.com/wp-content/uploads/2021/01/BRAND-LOGOS-Decorative-26.png",
+        "title": "A website for ceiling company",
+        "description": "A creative design project focused on modern aesthetics and usability.",
+        "link": "https://www.potolokchiuz.uz/"
+      },
+      {
+        "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/66851ba2e664192df500e812_AD_4nXcLbpyr2cH0gy0Plp-LAitiiTb7l61_FPjWiJtBqbp_PhAnGdubcwzswQxJTZg4MV8bEveBcr0JkaD30PE6HyvKrNkXpCudR5ydXn88gAuyQQEEXWYhd-x8liMnTCkcHRxNVgQvrWGh-8ZLztSuIN0RDyrr.png",
+        "title": "Data Scraper",
+        "description": "The Data Scraper automates the extraction and organization of online data, streamlining your data collection process.",
+        "link": "https://www.upwork.com/freelancers/~01abb2bd9b59052a82?p=1830009297352310784"
+      }
+    ]
+  }
+  
